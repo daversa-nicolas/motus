@@ -1,0 +1,31 @@
+{
+  "devDependencies": {
+    "parcel": "^2.16.4",
+    "typescript": "^7.0.2"
+  },
+  "name": "motus",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "detect-libc": "^2.1.2",
+    "fdir": "^6.5.0",
+    "lightningcss": "^1.33.0",
+    "lightningcss-darwin-x64": "^1.33.0",
+    "nanoid": "^3.3.20",
+    "picocolors": "^1.1.1",
+    "picomatch": "^4.0.7",
+    "postcss": "^8.5.31",
+    "rolldown": "^1.2.15",
+    "source-map-js": "^1.2.2",
+    "tinyglobby": "^0.2.17"
+  },
+  "scripts": {
+    "serve": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
