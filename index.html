@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="shortcut icon" href="./src/favicon/favicon.ico">
+    <!-- styles scss command import -->
+    <link rel="stylesheet" href="./scss/style.css">
+
+</head>
+
+<body>
+    <div id="app">
+        <label for="outputts">ARRAY:</label>
+        <div id="outputts">RESULT HERE</div>
+    </div>
+
+    <div id="app2">
+        <label for="outputts2">ARRAY:</label>
+        <div id="outputts2">RESULT HERE</div>
+    </div>
+
+
+    <div id="boxInput2">
+        <!-- THIS IS THE button TAG 2 -->
+        <button id="calculateinput">Calculate POWER</button>
+    </div>
+
+    <!-- THIS CREATING COMMUNICATION WITH JS FILE that COMMUNICATE WITH PKG WASM-->
+    <script type="module" src="fileWasm.ts"></script>
+
+</body>
+</html>
