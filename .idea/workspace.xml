@@ -12,9 +12,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33b44762-58be-4804-be7e-5cc69788462e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/fileWasm.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcel-cache/0069b0ac7e38cb17-AssetGraph" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/0069b0ac7e38cb17-AssetGraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcel-cache/6f504d967087550b-BundleGraph" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/6f504d967087550b-BundleGraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcel-cache/70dba4b52c152bd4-BundleGraph" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/70dba4b52c152bd4-BundleGraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcel-cache/b268cf1f67e7290d-RequestGraph" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/b268cf1f67e7290d-RequestGraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcel-cache/c23923128c744515-AssetGraph" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/c23923128c744515-AssetGraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcel-cache/cfd948ad50eeb106-RequestGraph" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/cfd948ad50eeb106-RequestGraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcel-cache/d0038ff34e3a5640-AssetGraph" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/d0038ff34e3a5640-AssetGraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcel-cache/data.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/data.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcel-cache/lock.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/lock.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcel-cache/snapshot-b268cf1f67e7290d.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/snapshot-b268cf1f67e7290d.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.parcel-cache/snapshot-cfd948ad50eeb106.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.parcel-cache/snapshot-cfd948ad50eeb106.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/motus.1050fa94.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/motus.1050fa94.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/motus.1050fa94.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/motus.1050fa94.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/motus.b329a088.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/motus.b329a088.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/motus.b329a088.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/motus.b329a088.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileWasm.ts" beforeDir="false" afterPath="$PROJECT_DIR$/fileWasm.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +39,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="38" />
+    <option name="cachedIndexableFilesCount" value="40" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="RsBuildProfile:dev" />
@@ -47,65 +64,65 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.526818964961896" />
-      <entry key="MS500" value="2.4862758709781128" />
-      <entry key="S2" value="2.854672913154272" />
-      <entry key="S5" value="2.991959870391626" />
-      <entry key="S10" value="3.423622060725468" />
-      <entry key="S30" value="10.547833654065073" />
-      <entry key="S60" value="21.39911202532614" />
-      <entry key="M2" value="32.53467496458988" />
-      <entry key="M5" value="49.508009054263816" />
-      <entry key="M10" value="93.56410562916255" />
-      <entry key="M15" value="144.02877321352594" />
-      <entry key="M30" value="268.80385048840304" />
-      <entry key="H1" value="452.87353502388225" />
-      <entry key="H2" value="733.894277617499" />
-      <entry key="H4" value="1084.817845433186" />
-      <entry key="D1" value="1727.2003180302224" />
-      <entry key="W1" value="1902.935300883827" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000005246181" />
+      <entry key="S10" value="1.0000305912285044" />
+      <entry key="S30" value="1.070536232326444" />
+      <entry key="S60" value="1.8940650341525473" />
+      <entry key="M2" value="9.333847404451424" />
+      <entry key="M5" value="47.9939814644116" />
+      <entry key="M10" value="94.5352942136635" />
+      <entry key="M15" value="121.41454737761578" />
+      <entry key="M30" value="158.32331990106866" />
+      <entry key="H1" value="182.06838832298627" />
+      <entry key="H2" value="211.15639158990385" />
+      <entry key="H4" value="395.9663535843316" />
+      <entry key="D1" value="2006.7873193215278" />
+      <entry key="W1" value="2896.822377950669" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.8077255779959717E-81" />
-      <entry key="S2" value="6.520533428881221E-21" />
-      <entry key="S5" value="8.427781166361416E-9" />
-      <entry key="S10" value="9.180294748188321E-5" />
-      <entry key="S30" value="0.04511132068191682" />
-      <entry key="S60" value="0.21239425764819533" />
-      <entry key="M2" value="0.4608627451571677" />
-      <entry key="M5" value="0.7369015291654889" />
-      <entry key="M10" value="0.938652402180417" />
-      <entry key="M15" value="1.1443754814200668" />
-      <entry key="M30" value="1.7712853541354883" />
-      <entry key="H1" value="3.3291848305375558" />
-      <entry key="H2" value="8.33877598296196" />
-      <entry key="H4" value="19.37259201636315" />
-      <entry key="D1" value="49.411702633910195" />
-      <entry key="W1" value="59.165295302628756" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="1.8221176468675322E-226" />
+      <entry key="M2" value="1.3498588064932135E-113" />
+      <entry key="M5" value="7.143198932627799E-46" />
+      <entry key="M10" value="2.975299748230143E-23" />
+      <entry key="M15" value="1.241575108709517E-15" />
+      <entry key="M30" value="7.587170776043861E-8" />
+      <entry key="H1" value="8.208688909765047E-4" />
+      <entry key="H2" value="0.1264483496928633" />
+      <entry key="H4" value="2.331035224955821" />
+      <entry key="D1" value="37.13251284344515" />
+      <entry key="W1" value="61.54077964886032" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.0743665339601565" />
-      <entry key="MS500" value="2.0479615894915044" />
-      <entry key="S2" value="2.678531530922636" />
-      <entry key="S5" value="2.8993815116736488" />
-      <entry key="S10" value="3.347357562748529" />
-      <entry key="S30" value="10.54158514647188" />
-      <entry key="S60" value="21.57609824103057" />
-      <entry key="M2" value="32.97307899648136" />
-      <entry key="M5" value="50.23331027031687" />
-      <entry key="M10" value="94.49498641408114" />
-      <entry key="M15" value="145.16661194267468" />
-      <entry key="M30" value="270.56968738000774" />
-      <entry key="H1" value="456.19704623431585" />
-      <entry key="H2" value="742.2260541178618" />
-      <entry key="H4" value="1104.1829783910384" />
-      <entry key="D1" value="1776.6091696445149" />
-      <entry key="W1" value="1962.1001179347982" />
+      <entry key="MS100" value="0.04869778622878123" />
+      <entry key="MS500" value="0.5463888695504763" />
+      <entry key="S2" value="0.8597564862430065" />
+      <entry key="S5" value="0.9413479574514189" />
+      <entry key="S10" value="0.9702603633325041" />
+      <entry key="S30" value="1.0593751902359272" />
+      <entry key="S60" value="1.884404718480076" />
+      <entry key="M2" value="9.324317834048772" />
+      <entry key="M5" value="47.98594391989383" />
+      <entry key="M10" value="94.52897038806114" />
+      <entry key="M15" value="121.4094256081974" />
+      <entry key="M30" value="158.32012807884854" />
+      <entry key="H1" value="182.06740733978177" />
+      <entry key="H2" value="211.28174019800926" />
+      <entry key="H4" value="398.29580517076033" />
+      <entry key="D1" value="2043.9173676160278" />
+      <entry key="W1" value="2958.3626001882644" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -117,7 +134,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;Cargo.Run.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run.executor&quot;: &quot;Debug&quot;,
     &quot;CidrDebugProfileConversion&quot;: &quot;true&quot;,
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
@@ -259,18 +276,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/lib.rs</url>
-          <line>59</line>
+          <line>76</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/lib.rs</url>
-          <line>58</line>
+          <line>75</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/lib.rs</url>
-          <line>43</line>
-          <option name="timeStamp" value="7" />
+          <line>86</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/fileWasm.ts</url>
@@ -279,13 +296,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/fileWasm.ts</url>
-          <line>43</line>
+          <line>42</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/fileWasm.ts</url>
-          <line>64</line>
-          <properties lambdaOrdinal="-1" />
+          <line>66</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>

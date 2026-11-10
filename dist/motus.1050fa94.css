@@ -35,7 +35,7 @@
   padding: 10px;
 }
 
-.lettres #app5 {
+.lettres #app5, .lettres #app6 {
   background-color: #8fbc8f;
   grid-area: 1 / 5 / auto / 6;
   margin: 21px;
