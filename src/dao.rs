@@ -1,8 +1,15 @@
 use std::fs::File;
 use std::io::{BufRead, BufReader};
+
+
+
 struct StringDao{
     fields:  String,
 }
+
+
+
+
 
 impl StringDao{
 
@@ -26,6 +33,7 @@ impl StringDao{
          Instead of calling File::open_buffered(...),
          use BufReader::new(File::open(...)?):*/
     fn open()->std::io::Result<()>{
+
         let f= File::open("../assets/mots.json")?;
         let reader=BufReader::new(f);
         // reader.capacity() returns the internal buffer size
@@ -33,9 +41,14 @@ impl StringDao{
 
         assert!(reader.capacity()>0);
 
-
-
-
+        /*Self::function(...)
+        Calling an associated (static) function
+        on the type
+        Self::split_string(...)
+        self.method(...)
+        Calling a method on an instance*/
+        let word = Self::split_string("testig string");
+        println!("{:?}",word);
         Ok(())
     }
 
@@ -49,11 +62,33 @@ impl StringDao{
     /*ASSIGEMENT METHOD TO  MLTIDIMARRAY OF DATA AFTER SPITTING STRING SINGLE FIELD
     */
 
-    fn split_string(stringJson: &str) -> [String;10] {
-        let mut stringJson = stringJson.split(' ');
-        stringJson[String;10]
+    fn split_string(stringJson: &str) -> Vec<&str> {
+        /*DDEFINED A ARRAY VARIABLR TYPE w TO OUTOUP*/
+        let w: Vec<&str> = stringJson.split(' ').collect();
+        // OUTPUT
+        w
     }
 
     /*METHOD OUTPUT INTERELY ARRAY DAO*/
 
+}
+
+
+
+// testing Outside impl (at the bottom)
+// Yes
+// Standard Rust convention across all official crates an
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_split_only() {
+        let word = StringDao::split_string("testig string");
+        println!("{:?}", word);
+
+        // Assert the expected outcome to ensure correctness automatically
+        assert_eq!(word, vec!["testig", "string"]);
+    }
 }
