@@ -33,7 +33,7 @@ but found () ne correspond pas au comportement normal de std::array::from_fn.
 // IMPLEMENTING METHODS OF CLASS LETTRE
 #[wasm_bindgen]
 impl Lettres {
-    /*So FROM WASM THE DUMMY ARGUMENT ARRAY MAYBE A
+    /*So FROM WASM THE DUMMY ARGUMENT ARRAY A
     WASM ARRAY Vec<> as ArrayList mutable
     */
     #[wasm_bindgen(constructor)]
@@ -80,8 +80,8 @@ impl Lettres {
      DAO */
 
     /* OUTPUT OF ARRAY TESTED WITHOUT ERROR */
-    /*Option A (Vec<String> with .to_vec()) whenever
-     you want JavaScript/Wasm to receive the full array.*/
+    /*(Vec<String> with .to_vec()) whenever
+     you want -> Wasm (PKG) -> TYPESCRIPT to receive the full array.*/
     pub fn get_array_rust(& self) -> Vec<String>{
         println!("get list_letters");
         println!("ARRAY RUST {:?}", self.inner.array_rust);

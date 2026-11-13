@@ -47,8 +47,8 @@ export function handleClickProduct() {
     console.log(arrayLettre[4]);
 
     /*instanced class Lettre to acces methods*/
-    /*TRY DUMMY ARRAY ? BETTER SINGLE FIELD MAYBE*/
-    /*THIS IS IMPORTED CLASS FROM RUST TO TS*/
+    /*TRY DUMMY ARRAY - BETTER SINGLE FIELD*/
+    /*THIS IS IMPORTED CLASS FROM RUST -> WASM -> TO TS*/
 
     const lettreObject = new Lettres("Atest", "Btest", arrayLettre);
 
